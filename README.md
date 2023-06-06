@@ -1,5 +1,3 @@
-# formation_data_analyst
-
 Bonjour !
 
 J'apprends à coder, je m'intéresse à l'analyse de données et à la science des données.
