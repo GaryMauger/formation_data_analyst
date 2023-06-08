@@ -1,4 +1,4 @@
-C'est le 2e projet de la formation de Data Analyst que j'ai débuté en septembre 2022.
+C'est le 2e projet de la [formation de Data Analyst](https://github.com/GaryMauger/formation_data_analyst) que j'ai débuté en septembre 2022.
 
 Je suis data analyst chez Laplace Immo, un réseau national d'agences immobilières. Notre directeur général est convaincu que nous devons nous démarquer de la concurrence en créant un modèle de prévision des prix de vente des biens immobiliers.
 
