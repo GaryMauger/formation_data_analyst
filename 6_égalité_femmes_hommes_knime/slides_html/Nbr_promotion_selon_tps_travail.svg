@@ -1,0 +1,361 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1600"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     style="display: block;" class="colored nvd3-svg"
+     contentStyleType="text/css" height="800"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.0">
+    <style type="text/css" xml:space="preserve">.nvd3 .nv-axis line, .nvd3 .nv-axis path { fill: none; shape-rendering: crispedges; }
+.nv-brush .extent, .nvd3 .background path, .nvd3 .nv-axis line, .nvd3 .nv-axis path { shape-rendering: crispedges; }
+.nv-distx, .nv-disty, .nv-noninteractive, .nvd3 .nv-axis, .nvd3.nv-pie .nv-label, .nvd3.nv-sparklineplus g.nv-hoverValue { pointer-events: none; }
+.nvd3 .nv-axis { opacity: 1; }
+.nvd3 .nv-axis path { stroke: rgb(0, 0, 0); stroke-opacity: 0.75; }
+.nvd3 .nv-axis path.domain { stroke-opacity: 0.75; }
+.nvd3 .nv-axis.nv-x path.domain { stroke-opacity: 0; }
+.nvd3 .nv-axis line { stroke: rgb(229, 229, 229); }
+.nvd3 .nv-axis .zero line, .nvd3 .nv-axis line.zero { stroke-opacity: 0.75; }
+.nvd3 .nv-axis .nv-axisMaxMin text { font-weight: 700; }
+.nvd3 .nv-discretebar .nv-groups rect, .nvd3 .nv-multibar .nv-groups rect, .nvd3 .nv-multibarHorizontal .nv-groups rect { stroke-opacity: 0; transition: fill-opacity 250ms linear 0s; }
+.nvd3 text { font: 400 12px Arial, sans-serif; }
+.nvd3 .nv-legend .nv-series { cursor: pointer; }</style><style type="text/css"
+           xml:space="preserve">.knime-title { color: black; fill: black; font-size: 24px; }
+.knime-label, .knime-axis-label, .knime-tick-label, .knime-label text, text.knime-axis-label, text.knime-tick-label { color: black; fill: black; font-size: 12px; }
+.knime-legend-label, text.knime-legend-label { color: black; fill: black; font-size: 12px; font-weight: normal; }</style><style type="text/css"
+           xml:space="preserve">svg.colored .nvd3 .nv-multibar .nv-groups rect, svg.colored .nvd3 .nv-multibarHorizontal .nv-groups rect, svg.colored .nvd3 .nv-discretebar .nv-groups rect { fill: inherit !important; stroke: inherit !important; }
+rect.nv-bar.positive { cursor: pointer; }</style><text x="20" y="30" id="title"
+          class="knime-title">
+        Nombre de promotions selon le temps de travail hebdomadaire
+    </text>
+    <g class="nvd3 nv-wrap nv-multiBarWithLegend"
+       transform="translate(28.359375,60)">
+        <g>
+            <g class="nv-x nv-axis nvd3-svg knime-axis knime-x"
+               transform="translate(0,711)">
+                <g class="nvd3 nv-wrap nv-axis knime-axis">
+                    <g>
+                        <g style="opacity: 1;" class="tick knime-tick"
+                           transform="translate(210.8298399390244,0)">
+                            <line y2="-711" style="opacity: 1;"
+                                  class="knime-tick-line" x2="0"/>
+                            <text x="0" dy=".71em" y="15"
+                                  style="text-anchor: middle; opacity: 1; pointer-events: all;"
+                                  class="knime-tick-label"
+                                  transform="translate(0,0)">
+                                24
+                                <title class="knime-tooltip">
+                                    24
+                                </title>
+                            </text>
+                        </g>
+                        <g style="opacity: 1;" class="tick knime-tick"
+                           transform="translate(594.1568216463415,0)">
+                            <line y2="-711" style="opacity: 1;"
+                                  class="knime-tick-line" x2="0"/>
+                            <text x="0" dy=".71em" y="15"
+                                  style="text-anchor: middle; opacity: 1; pointer-events: all;"
+                                  class="knime-tick-label"
+                                  transform="translate(0,0)">
+                                28
+                                <title class="knime-tooltip">
+                                    28
+                                </title>
+                            </text>
+                        </g>
+                        <g style="opacity: 1;" class="tick knime-tick"
+                           transform="translate(977.4838033536587,0)">
+                            <line y2="-711" style="opacity: 1;"
+                                  class="knime-tick-line" x2="0"/>
+                            <text x="0" dy=".71em" y="15"
+                                  style="text-anchor: middle; opacity: 1; pointer-events: all;"
+                                  class="knime-tick-label"
+                                  transform="translate(0,0)">
+                                32
+                                <title class="knime-tooltip">
+                                    32
+                                </title>
+                            </text>
+                        </g>
+                        <g style="opacity: 1;" class="tick knime-tick"
+                           transform="translate(1360.8107850609756,0)">
+                            <line y2="-711" style="opacity: 1;"
+                                  class="knime-tick-line" x2="0"/>
+                            <text x="0" dy=".71em" y="15"
+                                  style="text-anchor: middle; opacity: 1; pointer-events: all;"
+                                  class="knime-tick-label"
+                                  transform="translate(0,0)">
+                                35
+                                <title class="knime-tooltip">
+                                    35
+                                </title>
+                            </text>
+                        </g>
+                        <path class="domain knime-axis-line"
+                              d="M0,0V0H1571.640625V0"/>
+                        <text x="785.8203125" y="40"
+                              style="opacity: 1; pointer-events: all;"
+                              class="nv-axislabel knime-axis-label"
+                              text-anchor="middle">
+                            <title class="knime-tooltip"/>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g class="nv-y nv-axis nvd3-svg knime-axis knime-y">
+                <g class="nvd3 nv-wrap nv-axis knime-axis">
+                    <g>
+                        <g style="opacity: 1;" class="tick zero knime-tick"
+                           transform="translate(0,711)">
+                            <line y2="0" class="knime-tick-line"
+                                  x2="1571.640625"/>
+                            <text x="-3" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label" opacity="0">
+                                0
+                            </text>
+                        </g>
+                        <g style="opacity: 1;" class="tick knime-tick"
+                           transform="translate(0,574.2692307692308)">
+                            <line y2="0" class="knime-tick-line"
+                                  x2="1571.640625"/>
+                            <text x="-3" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label" opacity="1">
+                                10
+                            </text>
+                        </g>
+                        <g style="opacity: 1;" class="tick knime-tick"
+                           transform="translate(0,437.53846153846155)">
+                            <line y2="0" class="knime-tick-line"
+                                  x2="1571.640625"/>
+                            <text x="-3" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label" opacity="1">
+                                20
+                            </text>
+                        </g>
+                        <g style="opacity: 1;" class="tick knime-tick"
+                           transform="translate(0,300.8076923076923)">
+                            <line y2="0" class="knime-tick-line"
+                                  x2="1571.640625"/>
+                            <text x="-3" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label" opacity="1">
+                                30
+                            </text>
+                        </g>
+                        <g style="opacity: 1;" class="tick knime-tick"
+                           transform="translate(0,164.07692307692304)">
+                            <line y2="0" class="knime-tick-line"
+                                  x2="1571.640625"/>
+                            <text x="-3" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label" opacity="1">
+                                40
+                            </text>
+                        </g>
+                        <g style="opacity: 1;" class="tick knime-tick"
+                           transform="translate(0,27.34615384615383)">
+                            <line y2="0" class="knime-tick-line"
+                                  x2="1571.640625"/>
+                            <text x="-3" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label" opacity="1">
+                                50
+                            </text>
+                        </g>
+                        <path class="domain knime-axis-line" d="M0,0H0V711H0"/>
+                        <text x="-355.5" y="-48.359375"
+                              style="text-anchor: middle; pointer-events: all;"
+                              class="nv-axislabel knime-axis-label"
+                              transform="rotate(-90)">
+                            <title class="knime-tooltip"/>
+                        </text>
+                    </g>
+                    <g class="nv-axisMaxMin nv-axisMaxMin-y nv-axisMin-y knime-axis-max-min"
+                       transform="translate(0,711)">
+                        <text x="-3" dy=".32em" y="0"
+                              style="opacity: 1; pointer-events: all;"
+                              class="knime-tick-label" text-anchor="end">
+                            0
+                        </text>
+                    </g>
+                    <g class="nv-axisMaxMin nv-axisMaxMin-y nv-axisMax-y knime-axis-max-min"
+                       transform="translate(0,0)">
+                        <text x="-3" dy=".32em" y="0"
+                              style="opacity: 1; pointer-events: all;"
+                              class="knime-tick-label" text-anchor="end">
+                            52
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g class="nv-barsWrap nvd3-svg">
+                <g class="nvd3 nv-wrap nv-multibar" transform="translate(0,0)">
+                    <defs>
+                        <clipPath id="nv-edge-clip-3684">
+                            <rect height="711" width="1571.640625"/>
+                        </clipPath>
+                    </defs>
+                    <g clip-path="url(#nv-edge-clip-3684)">
+                        <g class="nv-groups">
+                            <g style="stroke-opacity: 1; fill-opacity: 0.75; fill: rgb(31, 119, 180); stroke: rgb(31, 119, 180);"
+                               class="nv-group nv-series-0">
+                                <rect x="0" y="587.9423076923076"
+                                      transform="translate(38.33269817073171,0)"
+                                      width="172.4971417682927"
+                                      style="fill: rgb(31, 119, 180); stroke: rgb(31, 119, 180);"
+                                      class="nv-bar positive"
+                                      height="123.05769230769238"/>
+                                <rect x="0" y="710"
+                                      transform="translate(421.6596798780488,0)"
+                                      width="172.4971417682927"
+                                      style="fill: rgb(31, 119, 180); stroke: rgb(31, 119, 180);"
+                                      class="nv-bar positive" height="1"/>
+                                <rect x="0" y="697.3269230769231"
+                                      transform="translate(804.9866615853659,0)"
+                                      width="172.4971417682927"
+                                      style="fill: rgb(31, 119, 180); stroke: rgb(31, 119, 180);"
+                                      class="nv-bar positive"
+                                      height="13.673076923076906"/>
+                                <rect x="0" y="0"
+                                      transform="translate(1188.3136432926829,0)"
+                                      width="172.4971417682927"
+                                      style="fill: rgb(31, 119, 180); stroke: rgb(31, 119, 180);"
+                                      class="nv-bar positive" height="711"/>
+                                <text x="86.24857330322266"
+                                      y="573.9266967773438"
+                                      transform="translate(38.33269817073171,0)"
+                                      fill="black" text-anchor="middle"
+                                      dominant-baseline="middle"
+                                      class="knime-static-bar-value"
+                                      stroke="none">
+                                    9
+                                </text>
+                                <text x="86.24857330322266" y="695.984375"
+                                      transform="translate(421.6596798780488,0)"
+                                      fill="black" text-anchor="middle"
+                                      dominant-baseline="middle"
+                                      class="knime-static-bar-value"
+                                      stroke="none">
+                                    0
+                                </text>
+                                <text x="86.24857330322266" y="683.311279296875"
+                                      transform="translate(804.9866615853659,0)"
+                                      fill="black" text-anchor="middle"
+                                      dominant-baseline="middle"
+                                      class="knime-static-bar-value"
+                                      stroke="none">
+                                    1
+                                </text>
+                                <text x="86.24857330322266" y="14.015625"
+                                      transform="translate(1188.3136432926829,0)"
+                                      fill="black" text-anchor="middle"
+                                      style="fill: white;"
+                                      dominant-baseline="middle"
+                                      class="knime-static-bar-value"
+                                      stroke="none">
+                                    52
+                                </text>
+                            </g>
+                            <g style="stroke-opacity: 1; fill-opacity: 0.75; fill: rgb(255, 127, 14); stroke: rgb(255, 127, 14);"
+                               class="nv-group nv-series-1">
+                                <rect x="172.4971417682927"
+                                      y="574.2692307692308"
+                                      transform="translate(38.33269817073171,0)"
+                                      width="172.4971417682927"
+                                      style="fill: rgb(255, 127, 14); stroke: rgb(255, 127, 14);"
+                                      class="nv-bar positive"
+                                      height="136.73076923076917"/>
+                                <rect x="172.4971417682927"
+                                      y="656.3076923076924"
+                                      transform="translate(421.6596798780488,0)"
+                                      width="172.4971417682927"
+                                      style="fill: rgb(255, 127, 14); stroke: rgb(255, 127, 14);"
+                                      class="nv-bar positive"
+                                      height="54.69230769230762"/>
+                                <rect x="172.4971417682927" y="710"
+                                      transform="translate(804.9866615853659,0)"
+                                      width="172.4971417682927"
+                                      style="fill: rgb(255, 127, 14); stroke: rgb(255, 127, 14);"
+                                      class="nv-bar positive" height="1"/>
+                                <rect x="172.4971417682927"
+                                      y="41.01923076923078"
+                                      transform="translate(1188.3136432926829,0)"
+                                      width="172.4971417682927"
+                                      style="fill: rgb(255, 127, 14); stroke: rgb(255, 127, 14);"
+                                      class="nv-bar positive"
+                                      height="669.9807692307692"/>
+                                <text x="258.74571990966797"
+                                      y="560.2536010742188"
+                                      transform="translate(38.33269817073171,0)"
+                                      fill="black" text-anchor="middle"
+                                      dominant-baseline="middle"
+                                      class="knime-static-bar-value"
+                                      stroke="none">
+                                    10
+                                </text>
+                                <text x="258.74571990966797"
+                                      y="642.2920532226562"
+                                      transform="translate(421.6596798780488,0)"
+                                      fill="black" text-anchor="middle"
+                                      dominant-baseline="middle"
+                                      class="knime-static-bar-value"
+                                      stroke="none">
+                                    4
+                                </text>
+                                <text x="258.74571990966797" y="695.984375"
+                                      transform="translate(804.9866615853659,0)"
+                                      fill="black" text-anchor="middle"
+                                      dominant-baseline="middle"
+                                      class="knime-static-bar-value"
+                                      stroke="none">
+                                    0
+                                </text>
+                                <text x="258.74571990966797"
+                                      y="27.003604888916016"
+                                      transform="translate(1188.3136432926829,0)"
+                                      fill="black" text-anchor="middle"
+                                      dominant-baseline="middle"
+                                      class="knime-static-bar-value"
+                                      stroke="none">
+                                    49
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g class="nv-legendWrap nvd3-svg knime-legend"
+               transform="translate(0,-60)">
+                <g class="nvd3 nv-legend" transform="translate(0,20)">
+                    <g transform="translate(1491.64453125,20)">
+                        <g class="nv-series" transform="translate(0,5)">
+                            <circle style="stroke-width: 2; fill: rgb(31, 119, 180); fill-opacity: 1; stroke: rgb(31, 119, 180);"
+                                    r="5"
+                                    class="nv-legend-symbol knime-legend-symbol"/>
+                            <text dx="8" fill="#000" dy=".32em"
+                                  class="nv-legend-text knime-legend-label"
+                                  text-anchor="start">
+                                F
+                            </text>
+                        </g>
+                        <g class="nv-series"
+                           transform="translate(39.330078125,5)">
+                            <circle style="stroke-width: 2; fill: rgb(255, 127, 14); fill-opacity: 1; stroke: rgb(255, 127, 14);"
+                                    r="5"
+                                    class="nv-legend-symbol knime-legend-symbol"/>
+                            <text dx="8" fill="#000" dy=".32em"
+                                  class="nv-legend-text knime-legend-label"
+                                  text-anchor="start">
+                                H
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g class="nv-controlsWrap"/>
+            <g class="nv-interactive"/>
+        </g>
+    </g>
+</svg>
